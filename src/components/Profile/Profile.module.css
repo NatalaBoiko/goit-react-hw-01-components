@@ -20,7 +20,7 @@
 
 .avatar {
   width: 300px;
-  border: solid #524a4d 4px;
+  box-shadow: 0 0 3px 0px #0000004d;
   border-radius: 50%;
   background-color: #e7eeeeed;
   padding: 20px 10px 0px 10px;
@@ -70,14 +70,14 @@
 
 .label {
   margin-right: 3px;
-  font-weight: 800;
+  font-weight: 700;
   font-size: 20px;
   color: #524a4d8b;
   margin-bottom: 5px;
 }
 
 .quantity {
-  font-weight: 700;
-  font-size: 17px;
+  font-weight: 800;
+  font-size: 20px;
   color: #524a4d;
 }
