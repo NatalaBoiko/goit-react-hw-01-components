@@ -1,9 +1,9 @@
 table {
-  display: inline-table;
-  flex-direction: column;
-  align-items: center;
-  box-shadow: 0 0 10px #c6cccced;
   margin-top: 30px;
+  /* display: inline-table; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  box-shadow: 0 0 10px #c6cccced;
   width: 370px;
   border-spacing: 0;
 }
@@ -23,7 +23,7 @@ table td {
   font-weight: 700;
   font-size: 15px;
   color: #524a4d;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
 }
 
