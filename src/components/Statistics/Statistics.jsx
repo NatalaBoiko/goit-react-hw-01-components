@@ -29,8 +29,8 @@ export const Statistics = ({ title, stats }) => {
               key={id}
               style={{ backgroundColor: createColor() }}
             >
-              <span class={css.label}>{label}</span>
-              <span class={css.percentage}>{percentage}</span>
+              <span className={css.label}>{label}</span>
+              <span className={css.percentage}>{percentage}</span>
             </li>
           );
         })}
