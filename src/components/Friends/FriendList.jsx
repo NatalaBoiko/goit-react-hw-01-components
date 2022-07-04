@@ -1,7 +1,7 @@
 import css from './Friends.module.css';
 import PropTypes from 'prop-types';
 
-export const Friends = ({ friends }) => {
+export const FriendList = ({ friends }) => {
   // console.log(friends);
 
   return (
@@ -21,7 +21,7 @@ export const Friends = ({ friends }) => {
   );
 };
 
-Friends.propTypes = {
+FriendList.propTypes = {
   avatar: PropTypes.string,
   name: PropTypes.string,
   isOnline: PropTypes.bool,
